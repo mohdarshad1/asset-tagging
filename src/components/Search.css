@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(209,204,204);
+}
+.templateContainer{
+    margin: 3% 0;
+}
+.templateContainer > .searchInput_Container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    margin-left: 30px;
+}
+.templateContainer .asset{
+    text-align: center;
+    margin: 10px;
+}
+.templateContainer .searchInput_Container .searchIcon{
+    height: 60px;
+}
+.temp .asset_search{
+    text-align: center;
+}
+.templateContainer > .searchInput_Container .search{
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color: black;
+}
+.templateContainer > .searchInput_Container input{
+    width: 40%;
+    padding: 10px;
+    outline: none;
+}
+.templateContainer .template_Container{
+    display: flex;
+    align-items: center; 
+    flex-wrap: wrap;
+    justify-content: inherit;
+    margin: 0 auto;
+}
+.asset_result{
+    text-align: center;
+}
+.templateContainer .template_Container .template{
+    background-color: white;
+    margin: 14.5px;
+    padding: 5px 20px;
+}
+.templateContainer .template_Container .value{
+    margin: 6px;
+}
+.templateContainer .template_Container .template .setup{
+    margin-top: -10px;
+}
+.templateContainer .template_Container .setup{
+    margin: -10px;
+}
+.templateContainer .template_Container .template img{
+    height: 250px;
+}
